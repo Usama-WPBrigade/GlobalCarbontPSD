@@ -91,6 +91,12 @@
         position: absolute;
         bottom: 15%;
     }
+    .old_proplem .col_left{
+        width: 50%;
+    }
+    .old_proplem .col_right{
+        width: 50%;
+    }
 
 }
 
@@ -125,13 +131,14 @@
         width: calc(100% + 100px);
         margin: 0 -50px -58px;
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
     .partner_images{
         width: 73%;
     }
-    .treamSlider_container .swiper-slide .normalSlider .image_wrapper img{
+    /* .treamSlider_container .swiper-slide .normalSlider .image_wrapper img{
         height: 30vh;
-    }
+    } */
     .footer_wrapper .container .cu h2{
         font-size: 40px;
         line-height: 45px;
@@ -143,36 +150,27 @@
     }
    
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 .header #menu{
-    display: block !important;
+    display: flex !important;
 }
 .overflowbody {
     overflow: auto !important;
   }
-  .header .menu button{
+  /* .header .menu button{
   display: none;
-}
+} */
 }
 
 @media screen and (max-width: 767px) {
-    
     .container{
         padding: 0 20px;
     }
-    .header #menu{
-        display: none;
-        width: 100%;
-        padding: 7px 15px;
-        height: calc(100vh - 47px);
-        overflow: auto;
-    }
+    
     .header .left_col .logo a{
         width: 105px;
         height: 30px;
     }
-
-
     .hero_section .container .hero_title .task::after{
         bottom: -55px;
     }
@@ -199,16 +197,24 @@
     background-color: transparent;
     margin-top: -7px;
     }
-    
+   
     .header .menu ul li{
         display: block;
         margin: 30px 0;
+        width: max-content;
     }
     .header .menu ul li a{
         font-size: 15px;
     }
     .header .menu button{
     display: none;
+    }
+    .header .menu{
+        width: 100%;
+        padding: 0 20px;
+        display: none;
+        height: calc(100vh - 47px);
+        overflow: auto;
     }
     /* Hero section */
     .hero_section .container p{
@@ -228,12 +234,13 @@
     .solutionSlider .swiper-wrapper{
         margin: 0;
         flex-wrap: nowrap;
+        justify-content: space-between;
     }
     /* Solution Slider*/
     .Solutioncarusel_wrapper .swiper-pagination{
         display: block;
         position: absolute;
-        bottom: -30px;
+        bottom: -15px;
     }
 
     /* About section*/
@@ -325,8 +332,9 @@
         bottom: -12%;
     }
     .partner_Slider .swiper-wrapper{
-        /* width: calc(100% + 50px); */
         flex-wrap: nowrap;
+        justify-content: flex-start;
+
     }
     .partner_Slider .swiper-slide {
         margin: 0;
@@ -393,9 +401,9 @@
         position: static;
 
     } */
-    .treamSlider_container .swiper-slide .normalSlider .image_wrapper img{
+    /* .treamSlider_container .swiper-slide .normalSlider .image_wrapper img{
         height: 28vh;
-    }
+    } */
     .footer_wrapper .container .cu::after{
         display: none;
     }
@@ -456,9 +464,9 @@
      
 }
 @media screen and (max-width: 620px) {
-    .treamSlider_container .swiper-slide .normalSlider .image_wrapper img{
+    /* .treamSlider_container .swiper-slide .normalSlider .image_wrapper img{
         height: 31vh;
-    }
+    } */
     .hero_section{
         min-height: 320px;
     }
@@ -484,8 +492,13 @@
 .hero_section .container .hero_title .task{
     margin-left: 10px;
 }
+.solutionSlider .swiper-slide .content p{
+    margin-bottom: 15px;
+}
 
 }
+
+
 @media screen and (max-width: 480px) {
     .btn{
         width: 100%;
@@ -553,9 +566,10 @@ padding: 0 6px;
 }
 .solutionSlider .swiper-slide .content p{
     margin-top: 0;
+    margin-bottom: 15px;
 }
 .Solutioncarusel_wrapper .swiper-pagination{
-    bottom: -5px;
+    bottom: -15px;
 }
 .solutionSlider .swiper-wrapper .swiper-slide{
     padding: 10px 15px;
@@ -598,7 +612,7 @@ padding: 19px 13px;
 }
 
 .partnership_wrapper .container .content .partnership_btn{
-    margin-top: 7px;
+    margin-top: 20px;
 }
 .partnership_wrapper{
     padding: 40px 20px 2px;
@@ -697,6 +711,7 @@ padding: 19px 13px;
 .team_wrapper .container .heading h2{
     font-size: 26px;
     line-height: 30px;
+    max-width: 280px;
 }
 .treamSlider_container .swiper{
     padding: 0 5px;
@@ -810,9 +825,9 @@ padding: 19px 13px;
     font-size: 16px;
     line-height: 21px;
 }
-.footer_wrapper .container .content .footer_logos .footerlogo_item:not(:last-child)::after{
-    display: none;
-
+.footer_wrapper .container .content .footer_logos .footerlogo_item:not(:last-child) {
+    margin-right: 15px;
+    padding-right: 4px;
 }
 .footer_wrapper .container .content{
     margin-top: -70px;
@@ -832,4 +847,5 @@ padding: 19px 13px;
     left: 0;
 }
 }
+
 

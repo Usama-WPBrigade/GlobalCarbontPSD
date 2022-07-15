@@ -3,7 +3,7 @@
 $(document).ready(function () {
     $(".menu_icon").on('click', function () {
         $("#menu").slideToggle();
-        $("body").toggleClass(".overflowbody")
+        $("body").toggleClass("overflowbody")
     });
 
 
@@ -58,7 +58,7 @@ $(window).on("load resize", function () {
         // $(".Rcard_wrapper").css("background-color", "gray");
         if (PartnerSlider?.destroyed === true || !PartnerSlider) {
             PartnerSlider = new Swiper(".partner_Slider .partnerslider", {
-                // slidesPerView: 1,
+                slidesPerView: 1,
                 loop: true,
                 autoplay: {
                     delay: 3000,
@@ -67,14 +67,7 @@ $(window).on("load resize", function () {
                     el: ".partner_Slider .swiper-pagination",
                     clickable: true,
                 },
-                breakpoints: {
-                    480: {
-                        slidesPerView: 1,
-                    },
-                    767: {
-                        slidesPerView: 2,
-                    },
-                }
+               
             });
         }
     }
@@ -127,6 +120,9 @@ var swiper = new Swiper(".treamSlider", {
         clickable: true,
     },
     breakpoints: {
+        480: {
+            slidesPerView: 1,
+        },
         590: {
             slidesPerView: 2,
         },
