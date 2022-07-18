@@ -7,20 +7,6 @@ $(document).ready(function () {
         $(".burger_icon").toggleClass("openmenu")
     });
 
-
-    // var imgs = 0;
-    // $("#toggle_nav").click(function () {
-    //     if (imgs == 0) {
-    //         $(".image").attr("src", "assets/images/hamburger_button.svg");
-    //         imgs = 1;
-    //     } else if (imgs == 1) {
-    //         $(".image").attr("src", "assets/images/burger_menuClosed.svg");
-    //         imgs = 0;
-    //     }
-    // });
-
-
-
     let solutionSlider;
     $(window).on("load resize", function () {
         if (window.matchMedia("(max-width: 767px)").matches) {
