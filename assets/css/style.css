@@ -331,9 +331,11 @@ display: none;
     background-color: #fff;
 }
 .about_wrapper .container{
-    padding: 110px 20px 126px 20px;
+    padding: 80px 20px 80px 20px;
     display: flex;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 46px;
 }
 .about_wrapper .container .left_col{
     width: 50%;

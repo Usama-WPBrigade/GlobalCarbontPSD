@@ -589,7 +589,7 @@ padding: 0 6px;
     background-repeat: no-repeat;
 }
 .solution_wrapper{
-    padding: 39px 0 39px 0;
+    padding: 39px 0 26px 0;
 }
 .Solutioncarusel_wrapper{
     padding: 18px 0 0 0;
@@ -599,13 +599,15 @@ padding: 0 6px;
     margin-bottom: 15px;
 }
 .Solutioncarusel_wrapper .swiper-pagination{
-    bottom: -15px;
+    bottom: 10px;
 }
 .solutionSlider .swiper-wrapper .swiper-slide{
     padding: 10px 15px;
 }
 .about_wrapper .container{
 padding: 19px 13px;
+margin-top: 0;
+margin-bottom: 0;
 }
 .about_wrapper .container .right_col .img_wrapper::before{
     width: 107px;
