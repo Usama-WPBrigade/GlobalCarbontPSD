@@ -599,7 +599,7 @@ padding: 0 6px;
     margin-bottom: 15px;
 }
 .Solutioncarusel_wrapper .swiper-pagination{
-    bottom: 10px;
+    bottom: 0px;
 }
 .solutionSlider .swiper-wrapper .swiper-slide{
     padding: 10px 15px;
