@@ -167,7 +167,7 @@
         padding: 0 20px;
     }
     /* burgericon*/
-    .menu_icon{
+    .burger_icon{
         width: 18px;
         height: 14px;
         display: flex;
@@ -178,7 +178,7 @@
         border: none;
         outline: none;
     }
-   .menu_icon .menu_bar{
+   .burger_icon .menu_bar{
         width: 100%;
         height: 2px;
         background-color: #112b36;
