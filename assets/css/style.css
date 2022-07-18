@@ -36,6 +36,7 @@
     margin: 0 auto;
 }
 
+
 .header{
     width:100%;
     border-top: 5px solid #53B94D;
@@ -870,6 +871,7 @@ flex-direction: column;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 986px;
+    width: 95%;
   }
   #video_close {
     position: absolute;

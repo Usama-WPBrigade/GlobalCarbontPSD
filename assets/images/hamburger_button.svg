@@ -1,0 +1,13 @@
+<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:multiply" opacity="0.2">
+<g style="mix-blend-mode:multiply">
+<path d="M15 0H0V2H15V0Z" fill="black"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<path d="M15 4H0V6H15V4Z" fill="black"/>
+</g>
+<g style="mix-blend-mode:multiply">
+<path d="M15 8H0V10H15V8Z" fill="black"/>
+</g>
+</g>
+</svg>
