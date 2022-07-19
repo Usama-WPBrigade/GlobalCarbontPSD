@@ -315,9 +315,12 @@ display: none;
     border-radius: 0px;
     background: #002E5F;
     opacity: 1;
-    margin: 0 2.5px !important;
     transition: 0.3s all;
   
+}
+.Solutioncarusel_wrapper .swiper-pagination-bullet:not(:last-child), .treamSlider_container .swiper-pagination-bullet:not(:last-child), .partner_Slider .swiper-pagination-bullet:not(:last-child) , .problem_slider .swiper-pagination-bullet:not(:last-child), .recouseSlider_wrapper .swiper-pagination-bullet:not(:last-child){
+    margin-right: 5px !important;
+
 }
 .Solutioncarusel_wrapper .swiper-pagination-bullet-active, .treamSlider_container .swiper-pagination-bullet-active, .partner_Slider .swiper-pagination-bullet-active, .problem_slider .swiper-pagination-bullet-active, .recouseSlider_wrapper .swiper-pagination-bullet-active {
     width:36px;
