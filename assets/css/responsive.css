@@ -177,8 +177,7 @@
         background-color: transparent;
         border: none;
         outline: none;
-        position: relative;
-        right: 30px;
+        
     }
    .burger_icon .menu_bar{
         width: 100%;
@@ -209,37 +208,22 @@
     }
     .header{
         /* flex-direction: column; */
-        padding: 0;
         border: 0;
     }
     nav{
-        width: 0;
+        width: 5%;
     }
     .header .left_col{
         justify-content: space-between;
         width: 100%;
-        box-shadow: 0 4px 10px -2px rgb(22 22 22 / 39%);
-        padding: 8px 13px 5px 5px;
         justify-content: space-between;
         width: 100%;
-        box-shadow: 0 4px 10px -2px rgb(22 22 22 / 11%);
-        padding: 8px 13px 5px 5px;
+        /* box-shadow: 0 4px 10px -2px rgb(22 22 22 / 11%); */
+        /* padding: 8px 13px 5px 5px; */
         z-index: 100;
 
     }
-    /* .header .left_col .menu_icon{
-    border: none;
-    outline: none;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background-color: transparent;
-    margin-top: -7px;
-    }
-    */
+   
     .header .menu ul li{
         display: block;
         margin: 30px 0;
