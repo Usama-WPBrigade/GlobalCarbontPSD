@@ -14,7 +14,7 @@
         padding-right: 15px;
     }
     .header .left_col .logo a{
-        width: 100px;
+        max-width: 100px;
     }
     /* .removalIMG_erapper {
         width: 500px;
@@ -47,7 +47,7 @@
         font-size: 14px;
     }
     .header .left_col .logo a{
-        width: 100px;
+        max-width: 100px;
     }
     .planCard_wrapper .card3{
         top: 30px
@@ -105,7 +105,7 @@
         display: none;
     }
     .header .left_col .logo a{
-        width: 138px;
+        max-width: 138px;
     }
     .header .left_col .logo:not(:last-child){
         border: none;
@@ -177,12 +177,15 @@
         background-color: transparent;
         border: none;
         outline: none;
+        position: relative;
+        right: 30px;
     }
    .burger_icon .menu_bar{
         width: 100%;
         height: 2px;
         background-color: #112b36;
         transition: all 0.5s ease-in-out;
+        z-index: 100;
     }
    .openmenu .menu_bar1{
         transform: rotate(-45deg) translate(0px, 6px);
@@ -198,22 +201,31 @@
 
 
     .header .left_col .logo a{
-        width: 105px;
-        height: 30px;
+        max-width: 105px;
+        min-height: 30px;
     }
     .hero_section .container .hero_title .task::after{
         bottom: -55px;
     }
     .header{
-        flex-direction: column;
+        /* flex-direction: column; */
         padding: 0;
         border: 0;
+    }
+    nav{
+        width: 0;
     }
     .header .left_col{
         justify-content: space-between;
         width: 100%;
         box-shadow: 0 4px 10px -2px rgb(22 22 22 / 39%);
         padding: 8px 13px 5px 5px;
+        justify-content: space-between;
+        width: 100%;
+        box-shadow: 0 4px 10px -2px rgb(22 22 22 / 11%);
+        padding: 8px 13px 5px 5px;
+        z-index: 100;
+
     }
     /* .header .left_col .menu_icon{
     border: none;
@@ -240,11 +252,16 @@
     display: none;
     }
     .header .menu{
+        display: none;
         width: 100%;
         padding: 0 20px;
-        display: none;
         height: calc(100vh - 47px);
         overflow: auto;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 0;
+        background-color: white;
     }
     /* Hero section */
     .hero_section .container p{
