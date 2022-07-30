@@ -753,7 +753,7 @@ display: none;
 .removalIMG_erapper{
     position: absolute;
     right: 55px;
-    width: 50%;
+    max-width: 50%;
     height: 400px;
     bottom: -21.5%;
 }
@@ -1655,7 +1655,7 @@ flex-direction: column;
     margin-left: -9px;
  }
  .footer_wrapper .container .content .footer_logos .footerlogo_item{
-    width: 150px;
+    max-width: 150px;
     height: 40px;
     position: relative;
     width: 20%;
