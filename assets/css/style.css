@@ -753,7 +753,7 @@ display: none;
 .removalIMG_erapper{
     position: absolute;
     right: 55px;
-    max-width: 50%;
+    width: 50%;
     height: 400px;
     bottom: -21.5%;
 }
@@ -971,7 +971,7 @@ flex-direction: column;
       width: 100%;
   }
   .treamSlider_container .swiper-slide .normalSlider .image_wrapper{
-    position: relative;
+    /* position: relative; */
     /* padding-bottom: 84%; */
     /* Width:270px; */
     max-height:256px;
